@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 30px;
+}
+#sec1 {
+    position: absolute;
+    border: 1px solid black;
+    padding: 2px;
+    width: 30%;
+    background-color: #ffc0cb;
+    text-align: center;
+    font-size: 1.25em;
+    top: 0;
+    right: 0;
+}
+#sec2 {
+    position: absolute;
+    border: 1px solid black;
+    padding: 2px;
+    width: 30%;
+    background-color: #d55d5d;
+    text-align: center;
+    font-size: 1.25em;
+    top: 0;
+    right: 0;
+}
+#sec3 {
+    position: absolute;
+    border: 1px solid black;
+    padding: 2px;
+    width: 30%;
+    text-align: center;
+    font-size: 1.25em;
+    background-color: #ffff66;
+    top: 0;
+    right: 0;
+}
+div p {
+    padding: 10px;
+    margin-top: 20px;
+}
+#box1 {
+    background-color: #66d9ff;
+    border: 1px solid black;
+    position: relative;
+    margin: 2px;
+}
+#box2 {
+    background-color: #66ffcc;
+    border: 1px solid black;
+    position: relative;
+    margin: 2px;
+}
+#box3 {
+    background-color: #d9b3ff;
+    border: 1px solid black;
+    position: relative;
+    margin: 2px;
+}
+.row {
+    width: 100%;
+}
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+    .box1-lg,
+    .box2-lg,
+    .box3-lg {
+        float: left;
+    }
+    .box1-lg {
+        width: 33%;
+    }
+    .box2-lg {
+        width: 33%;
+    }
+    .box3-lg {
+        width: 33%;
+    }
+}
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box1-md,
+    .box2-md,
+    .box3-md {
+        float: left;
+    }
+    .box1-md {
+        width: 33%;
+    }
+    .box2-md {
+        width: 33%;
+    }
+    .box3-md {
+        width: 33%;
+    }
+}
